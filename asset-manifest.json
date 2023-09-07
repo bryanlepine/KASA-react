@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KASA-react/static/css/main.d4334bf4.css",
-    "main.js": "/KASA-react/static/js/main.61030920.js",
+    "main.js": "/KASA-react/static/js/main.81dca60f.js",
     "static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.jpg": "/KASA-react/static/media/kalen-emsley-Bkci_8qcdvQ-unsplash 2.e54ae93d36cfba861b65.jpg",
     "static/media/hero-beach-creek.jpg": "/KASA-react/static/media/hero-beach-creek.61352a7ae7ebff30e925.jpg",
     "index.html": "/KASA-react/index.html",
@@ -9,10 +9,10 @@
     "static/media/star.svg": "/KASA-react/static/media/star.30b8963e66a47777ef47296f505567be.svg",
     "static/media/arrow.svg": "/KASA-react/static/media/arrow.46b1ebf47623f6e9c2e14957bb389553.svg",
     "main.d4334bf4.css.map": "/KASA-react/static/css/main.d4334bf4.css.map",
-    "main.61030920.js.map": "/KASA-react/static/js/main.61030920.js.map"
+    "main.81dca60f.js.map": "/KASA-react/static/js/main.81dca60f.js.map"
   },
   "entrypoints": [
     "static/css/main.d4334bf4.css",
-    "static/js/main.61030920.js"
+    "static/js/main.81dca60f.js"
   ]
 }
