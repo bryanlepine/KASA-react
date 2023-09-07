@@ -1,0 +1,35 @@
+@import 'Main.scss';
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+
+    .nav-bar {
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        width: 300px;
+        max-width: 100%;
+        gap: 1em;
+        color: $primary-color;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 500;
+
+        li>a {
+            text-decoration: none;
+            color: $primary-color;
+        }
+      
+    }
+}  
+
+.nav-bar li a:hover,
+.nav-bar li a.active-link { 
+    text-decoration: underline;
+    text-decoration-thickness: 1.4px;
+    text-underline-offset: 4px;
+}
