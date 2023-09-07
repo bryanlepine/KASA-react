@@ -10,8 +10,8 @@ const Header = () => {
           <header className="header">
             <img src={logo} className="Kasa-logo" alt="kasa-logo" />
             <nav className="nav-bar">
-            <li><NavLink exact="true" to="/" className={location.pathname==='/' ? 'active-link': ''}>Accueil</NavLink></li>
-            <li><NavLink to="/a-propos" className={location.pathname === '/a-propos' ? 'active-link' : ''}>A propos</NavLink></li>
+            <li><NavLink exact="true" to="/KASA-react" className={location.pathname==='/' ? 'active-link': ''}>Accueil</NavLink></li>
+            <li><NavLink to="/KASA-react/a-propos" className={location.pathname === '/a-propos' ? 'active-link' : ''}>A propos</NavLink></li>
             </nav>
           </header>
       );

@@ -12,9 +12,9 @@ function House() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/logements.json')
-      .then(response => response.json())
-      .then(data => {
+    fetch('/KASA-react/logements.json')
+      .then((response) => response.json())
+      .then((data) => {
         setData(data);
         setIsLoading(false);
       });
@@ -24,23 +24,22 @@ function House() {
     return <div>Loading...</div>;
   }
 
-  const HouseData = data.find(House => House.id === id);
+  const HouseData = data.find((house) => house.id === id);
+
+  if (!HouseData) {
+    return <Error />;
+  }
 
   return (
     <>
-      {HouseData ? (
-        <div className="houseWrapper">
-          <div className="house">
-            <Header />
-            <HeroSlider pictures={HouseData.pictures} />
-            <HouseSheets property={HouseData} />
-          </div>
-          <Footer />
+      <div className="houseWrapper">
+        <div className="house">
+          <Header />
+          <HeroSlider pictures={HouseData.pictures} />
+          <HouseSheets property={HouseData} />
         </div>
-        
-      ) : (
-        <Error />
-      )}
+        <Footer />
+      </div>
     </>
   );
 }
